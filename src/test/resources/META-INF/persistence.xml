@@ -55,7 +55,14 @@
             Currently haven't found an elegant way around this.
          -->
         <class>com.realdolmen.course.domain.Person</class>
-
+        <class>com.realdolmen.course.domain.Tweet</class>
+		<class>com.realdolmen.course.domain.User</class>
+		<class>com.realdolmen.course.domain.VerifiedUser</class>
+		<class>com.realdolmen.course.domain.RegularUser</class>
+		<class>com.realdolmen.course.domain.Profile</class>
+		<class>com.realdolmen.course.domain.Tag</class>
+		
+		
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 
